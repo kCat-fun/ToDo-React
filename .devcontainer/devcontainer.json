@@ -1,0 +1,30 @@
+{
+  "name": "funcy_web_front_practice (Web)",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/usr/src/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash",
+            "args": [
+              "-l"
+            ]
+          }
+        }
+      },
+      "extensions": [
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "shardulm94.trailing-spaces",
+        "shardulm94.trailing-spaces",
+        "formulahendry.auto-rename-tag",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
